@@ -1,7 +1,6 @@
-# 🚀 My Web App Scaffold
+# 🚀 My Portfolio
 
 This is my personal web app setup built from scratch using modern technologies.  
-I created it to make development faster, cleaner, and scalable — with a focus on performance, UI design, and best practices.
 
 ---
 
