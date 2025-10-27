@@ -1,75 +1,71 @@
-🚀 About This Project
+# 🚀 My Web App Scaffold
 
-This is my personal web application setup, built completely from scratch to create fast, scalable, and visually appealing web apps.
-I designed it with a focus on performance, clean architecture, and modern tools that make development efficient and enjoyable.
+This is my personal web app setup built from scratch using modern technologies.  
+I created it to make development faster, cleaner, and scalable — with a focus on performance, UI design, and best practices.
 
-💡 What I Used
-🧠 Core Technologies
+---
 
-Next.js 15 – My go-to framework for building full-stack React apps
+## ✨ Tech Stack
 
-TypeScript – To keep my code clean, safe, and predictable
+### 🎯 Core Framework
+- **Next.js 15** – React framework for building full-stack web apps
+- **TypeScript 5** – Strongly typed JavaScript for reliable code
+- **Tailwind CSS 4** – Utility-first CSS framework for responsive UI
 
-Tailwind CSS – For fast and responsive UI styling
+### 🧩 UI & Styling
+- **shadcn/ui** – Reusable and accessible UI components
+- **Lucide React** – Clean and consistent icon set
+- **Framer Motion** – Modern animations and transitions
+- **Next Themes** – Simple dark/light mode integration
 
-🎨 UI & Design
+### 📋 Forms & Validation
+- **React Hook Form** – Performant form handling
+- **Zod** – Type-safe validation schemas
 
-shadcn/ui – Reusable and accessible UI components
+### 🔄 State & Data Management
+- **Zustand** – Lightweight global state management
+- **TanStack Query** – Server state management and data fetching
+- **Axios** – Promise-based HTTP client
 
-Lucide Icons – Simple, beautiful icons
+### 🗄️ Backend & Database
+- **Prisma** – Type-safe ORM for working with databases
+- **NextAuth.js** – Authentication and session management
 
-Framer Motion – Smooth and subtle animations
+### 📊 Advanced UI Features
+- **TanStack Table** – Sortable and filterable data tables
+- **Recharts** – Data visualization made easy
+- **DND Kit** – Drag-and-drop interactions
+- **Sharp** – Image optimization for better performance
 
-Next Themes – Seamless dark and light mode
+### 🌍 Utilities
+- **Next Intl** – Internationalization for multi-language support
+- **Date-fns** – Handy date utility functions
+- **ReactUse** – Collection of useful React hooks
 
-⚙️ Functionality
+---
 
-React Hook Form & Zod – For form handling and validation
+## 🎯 Purpose
 
-Zustand – Lightweight state management
+I built this scaffold to streamline my workflow and provide a solid foundation for new projects.  
+It helps me:
+- Develop faster with a pre-configured setup  
+- Maintain consistent UI and structure  
+- Ensure type safety throughout the stack  
+- Easily connect backend, database, and authentication  
 
-TanStack Query & Axios – For API calls and data handling
+---
 
-🗄️ Backend & Database
+## 🧰 Getting Started
 
-Prisma – Simplifies database operations
-
-NextAuth.js – Handles authentication securely
-
-📊 Extras
-
-Recharts – Data visualization made easy
-
-TanStack Table – Dynamic and customizable data tables
-
-DND Kit – Drag-and-drop interactions
-
-Next Intl – Supports multiple languages
-
-Sharp – Optimized image handling
-
-🎯 My Goal
-
-I wanted to create a modern, all-in-one foundation for future projects — something that helps me prototype ideas quickly while keeping the structure professional and scalable.
-This setup lets me focus more on creativity and logic rather than repetitive configuration work.
-
-💻 Development Setup
+```bash
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
 
+# Build for production
+npm run build
 
-Visit http://localhost:3000
- to see it in action.
-
-🧩 Project Structure
-src/
-├── app/          # App Router pages
-├── components/   # Reusable UI components
-├── hooks/        # Custom React hooks
-└── lib/          # Utility functions and configurations
-
-❤️ Personal Note
-
-This project reflects my coding style — clean, efficient, and modern.
-I built it to explore new technologies, improve performance, and maintain flexibility for future projects.
-It’s not just a scaffold — it’s a part of my learning journey as a developer.
+# Start production server
+npm start
